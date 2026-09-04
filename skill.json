@@ -1,0 +1,36 @@
+{
+  "name": "genpark-agentic-hallucination-cross-examination-debate-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Dialectic multi-agent debate and cross-examination engine pitting advocates against inquisitors to eliminate hallucinations.",
+  "homepage": "https://genpark.ai/mcp",
+  "author": "genpark",
+  "category": "multi-agent",
+  "tags": [
+    "autogen",
+    "debate-arena",
+    "hallucination-elimination",
+    "dialectic",
+    "cross-examination"
+  ],
+  "inputs": {
+    "claim_id": {
+      "type": "string"
+    },
+    "rounds_conducted": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "audit_id": {
+      "type": "string"
+    },
+    "verdict": {
+      "type": "string"
+    },
+    "robustness_score": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
